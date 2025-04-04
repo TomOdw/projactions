@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo ".projections/Build: Nothing configured."
