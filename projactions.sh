@@ -23,9 +23,6 @@ ACTIVE_PANE_PATH=$(tmux display-message -p "#{pane_current_path}")
 # Get The active pane's id
 ACTIVE_PANE_ID=$(tmux display-message -p "#{pane_id}")
 
-# Get The active pane's title 
-ACTIVE_PANE_TITLE=$(tmux display-message -p -t $ACTIVE_PANE_ID "#{pane_title}")
-
 # List of commands that represent an idle shell
 idle_shells=("bash" "zsh" "sh" "fish" "ksh" "tcsh")
 
